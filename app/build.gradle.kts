@@ -57,4 +57,9 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
+    implementation( platform("androidx.compose:compose-bom:2024.10.00"))
+    implementation ("androidx.compose.material:material-icons-extended")
+
 }
