@@ -12,7 +12,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.StarHalf
 import androidx.compose.material.icons.rounded.MonetizationOn
-import androidx.compose.material.icons.rounded.StarHalf
 import androidx.compose.material.icons.rounded.Wallet
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -33,7 +32,7 @@ import com.example.bankapp.ui.theme.PurpleStart
 
 val financeList = listOf(
     Finance(
-        icon = Icons.Rounded.StarHalf,
+        icon = Icons.AutoMirrored.Rounded.StarHalf,
         name = "My\nBusiness",
         background = OrangeStart
     ),
