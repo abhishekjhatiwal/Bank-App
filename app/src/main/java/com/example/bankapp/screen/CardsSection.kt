@@ -25,6 +25,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bankapp.R
 import com.example.bankapp.data.Card
+import com.example.bankapp.ui.theme.BlueEnd
+import com.example.bankapp.ui.theme.BlueStart
+import com.example.bankapp.ui.theme.GreenEnd
+import com.example.bankapp.ui.theme.GreenStart
+import com.example.bankapp.ui.theme.OrangeEnd
+import com.example.bankapp.ui.theme.OrangeStart
+import com.example.bankapp.ui.theme.PurpleEnd
+import com.example.bankapp.ui.theme.PurpleStart
 
 val cards = listOf(
 

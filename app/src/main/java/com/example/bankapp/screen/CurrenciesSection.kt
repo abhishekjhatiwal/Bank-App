@@ -42,6 +42,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bankapp.data.Currency
+import com.example.bankapp.ui.theme.GreenStart
 
 val currencies = listOf(
     Currency(
