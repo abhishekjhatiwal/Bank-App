@@ -55,7 +55,7 @@ val cards = listOf(
     Card(
         cardType = "VISA",
         cardNumber = "0078 3467 3446 7899",
-        cardName = "School",
+        cardName = "Collage",
         balance = 3.467,
         color = getGradient(OrangeStart, OrangeEnd),
     ),
@@ -134,7 +134,7 @@ fun CardItem(
             )
 
             Text(
-                text = "$ ${card.balance}",
+                text = "₹ ${card.balance}",
                 color = Color.White,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold

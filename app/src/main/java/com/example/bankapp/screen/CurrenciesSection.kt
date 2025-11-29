@@ -120,17 +120,18 @@ fun CurrenciesSection() {
                 verticalAlignment = Alignment.CenterVertically
             ) {
 
-                Box(modifier = Modifier
-                    .clip(CircleShape)
-                    .background(MaterialTheme.colorScheme.secondary)
-                    .clickable {
-                        isVisible = !isVisible
-                        iconState = if (isVisible) {
-                            Icons.Rounded.KeyboardArrowUp
-                        } else {
-                            Icons.Rounded.KeyboardArrowDown
+                Box(
+                    modifier = Modifier
+                        .clip(CircleShape)
+                        .background(MaterialTheme.colorScheme.secondary)
+                        .clickable {
+                            isVisible = !isVisible
+                            iconState = if (isVisible) {
+                                Icons.Rounded.KeyboardArrowUp
+                            } else {
+                                Icons.Rounded.KeyboardArrowDown
+                            }
                         }
-                    }
                 ) {
                     Icon(
                         modifier = Modifier.size(25.dp),
