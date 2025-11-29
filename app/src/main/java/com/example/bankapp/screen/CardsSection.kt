@@ -45,7 +45,7 @@ val cards = listOf(
     ),
 
     Card(
-        cardType = "MASTER CARD",
+        cardType = "RUPEE CARD",
         cardNumber = "234 7583 7899 2223",
         cardName = "Savings",
         balance = 6.467,
@@ -53,7 +53,7 @@ val cards = listOf(
     ),
 
     Card(
-        cardType = "VISA",
+        cardType = "RUPEE CARD",
         cardNumber = "0078 3467 3446 7899",
         cardName = "Collage",
         balance = 3.467,
@@ -101,6 +101,8 @@ fun CardItem(
     var image = painterResource(id = R.drawable.ic_visa)
     if (card.cardType == "MASTER CARD") {
         image = painterResource(id = R.drawable.ic_mastercard)
+    } else if(card.cardType == "RUPEE CARD"){
+        image = painterResource(id = R.drawable.ic_ruppe)
     }
 
     Box(
